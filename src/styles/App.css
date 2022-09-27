@@ -1,0 +1,142 @@
+.Header,
+.Footer {
+  background-color: black;
+  color: white;
+}
+
+.Header {
+  font-size: 2.5em;
+  padding: 0.5em;
+}
+
+.Footer {
+  padding: 1em;
+}
+
+.App {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #272b30;
+  font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+#playWithPeopleButton {
+  border: solid;
+  border-width: 1px;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1em;
+  margin: 0.4em 0.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #4d00ff;
+}
+
+#playWithPeopleButton:hover {
+  background-color: #26017e;
+}
+
+#playWithPeopleButton:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: wait;
+}
+
+#playWithStarshipsButton {
+  border: solid;
+  border-width: 1px;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1em;
+  margin: 0.4em 0.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #cc0000;
+}
+
+#playWithStarshipsButton:hover {
+  background-color: #660000;
+}
+
+#playWithStarshipsButton:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: wait;
+}
+
+#CurrentGameResults {
+  padding: 0.4em;
+}
+
+.GameArea {
+  flex: 1 0 auto;
+  justify-content: stretch;
+}
+
+.GameDescription {
+  color: white;
+  font-size: xx-large;
+  padding: 0.4em;
+}
+
+.ButtonsArea {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.GameResults {
+  color: white;
+  font-size: 1.5em;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.4em;
+}
+
+.Score {
+  border: 3px solid white;
+  border-style: solid;
+  padding: 0.4em;
+  font-size: 0.8em;
+}
+
+.CardsArea {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.card-text {
+  font-size: 3rem;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 3rem;
+  color: violet;
+}
+
+.winner {
+  color: #6aa84f;
+}
+
+.looser {
+  color: #f44336;
+}
